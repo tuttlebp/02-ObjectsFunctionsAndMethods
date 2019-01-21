@@ -200,7 +200,7 @@ def even_better_draw_circles(point, radius, circles, color, thickness):
     turtle.go_to(point)
     turtle.set_heading(0)  # Point "east" (towards the right)
 
-    for k in range(1, (circles - 1)):  # k becomes 1, 2, 3, ... 10
+    for k in range(1, (circles + 1)):  # k becomes 1, 2, 3, ... 10
 
         turtle.pen_up()
         turtle.pen = rg.Pen(color, thickness)
